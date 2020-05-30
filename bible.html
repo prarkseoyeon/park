@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <title>성경퀴즈</title>
+</head>
+<body>
+ <button onclick="myFucntion()">사복음서 퀴즈</button>
+ <p id="check">정답 체크</p>
+ <script type="text/javascript">
+  function myFucntion() {
+   var kingName = prompt("우리는 무슨 지파?", "");
+   if(kingName=="요한") document.getElementById("check").innerHTML = "정답입니다.";
+   else document.getElementById("check").innerHTML = "오답입니다.";
+  }
+ </script>
+</body>
+</html>
